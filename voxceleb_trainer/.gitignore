@@ -10,6 +10,7 @@ exps/
 core.*
 commit.ipynb
 *.ipynb
+voxceleb_trainer/commit.ipynb
 
 # NSML related
 .nsmlignore
