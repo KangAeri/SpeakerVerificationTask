@@ -1,0 +1,12 @@
+model: newmodel
+log_input: True
+encoder_type: SAP
+trainfunc: aamsoftmax
+save_path: exps/ecapa_AAM_m4
+nLcasses: 5994
+batch_size: 20
+scale: 30
+margin: 0.4
+in_channels: 80 #nmels
+channels: 512
+usecpu: False

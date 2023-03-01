@@ -3,11 +3,13 @@
 *.wav
 *.mp4
 *.pcm
-*.yaml
+
 data
 data/
 exps/
 core.*
+commit.ipynb
+*.ipynb
 
 # NSML related
 .nsmlignore

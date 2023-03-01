@@ -1,0 +1,13 @@
+model: RawNet3
+log_input: True
+encoder_type: ECA
+trainfunc: angleproto
+save_path: exps/RawNet3_AP
+nPerSpeaker: 2
+batch_size: 20
+usecpu: False
+nOut: 256
+lr_decay: 0.75
+weight_decay: 5e-05
+max_seg_per_spk: 500
+sinc_stride: 10

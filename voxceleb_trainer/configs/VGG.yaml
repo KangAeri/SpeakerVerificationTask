@@ -1,0 +1,10 @@
+model: VGGVox
+log_input: True
+encoder_type: SAP
+trainfunc: amsoftmax
+save_path: exps/VGG
+nLcasses: 5994
+batch_size: 20
+scale: 30
+margin: 0.3
+usecpu: False

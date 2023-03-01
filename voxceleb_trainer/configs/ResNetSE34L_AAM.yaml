@@ -1,0 +1,12 @@
+model: ResNetSE34L
+log_input: True
+encoder_type: SAP
+trainfunc: aamsoftmax
+save_path: exps/ResNetSE34L_AAM
+nLcasses: 5994
+batch_size: 20
+scale: 30
+margin: 0.3
+in_channels: 80 #nmels
+channels: 512
+usecpu: False
